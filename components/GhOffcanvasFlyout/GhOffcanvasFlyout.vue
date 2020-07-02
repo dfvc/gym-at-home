@@ -13,13 +13,13 @@
       class="gh-offcanvas-flyout fixed p-8 w-full bg-gray-900a7 h-full shadow-2xl overflow-y-auto overflow-x-hidden scrolling-touch"
     >
       <button
-        title="Close"
+        :title="$t('global.actions.close')"
         class="gh-offcanvas-flyout__close-button absolute right-0 z-10 p-0 w-6 h-6"
         @click="onClickCloseButton"
       >
         <GhIcon
           name="cross"
-          title="Close"
+          :title="$t('global.actions.close')"
           class="text-white h-6 w-6"
         />
       </button>

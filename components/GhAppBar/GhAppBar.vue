@@ -12,10 +12,10 @@
       to="/"
       class="inline-flex items-center mx-6 font-headline text-3xl"
     >
-      Gym@Home
+      {{ $t('global.appName') }}
     </nuxt-link>
 
-    <span class="mx-6">BUTTON</span>
+    <span class="mx-6">{{ $t('appBar.engageButtonLabel') }}</span>
   </header>
 </template>
 

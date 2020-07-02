@@ -1,8 +1,8 @@
 <template>
   <div class="gh-offcanvas-menu">
     <button
+      :title="$t('global.actions.openMenu')"
       type="button"
-      title="Menu"
       class="gh-offcanvas-menu__trigger flex flex-col justify-between items-center py-3 lg:py-4 px-6 h-full"
       @click="openMenu"
     >
