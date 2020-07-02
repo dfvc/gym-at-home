@@ -1,0 +1,1 @@
+export const APPBAR_BLUR_THRESHOLD = 200;
