@@ -1,6 +1,6 @@
 <template>
   <section class="gh-intro-teaser flex justify-center items-center bg-main-500">
-    <p class="font-headline text-6xl">Gym@Home</p>
+    <p class="font-headline text-6xl">{{ $t('global.appName') }}</p>
   </section>
 </template>
 

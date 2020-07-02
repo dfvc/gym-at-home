@@ -55,12 +55,39 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    'nuxt-i18n',
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {},
+  /*
+  ** Internationalization
+  */
+  i18n: {
+    locales: [
+      {
+        code: 'pt',
+        iso: 'pt-PT',
+        name: 'Portuguese',
+      },
+      {
+        code: 'en',
+        iso: 'en-US',
+        name: 'English',
+      },
+    ],
+    defaultLocale: 'pt',
+    noPrefixDefaultLocale: true,
+    vueI18n: {
+      fallbackLocale: 'pt',
+      messages: {
+        pt: require('./i18n/pt-PT/pt-PT.ts').messages,
+        en: require('./i18n/en-US/en-US.ts').messages,
+      },
+    },
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
