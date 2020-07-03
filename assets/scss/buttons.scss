@@ -1,0 +1,79 @@
+.gh-button {
+  $root: &;
+
+  @apply py-2 px-4;
+  @apply transition-all duration-100;
+
+  // Variants
+  &--ghost {
+    @apply bg-transparent;
+  }
+
+  &--outlined {
+    @apply bg-transparent;
+    @apply border-2;
+  }
+
+  &--cta {
+    @apply uppercase;
+    @apply font-bold;
+    padding-top: 9px;
+    padding-bottom: 7px;
+  }
+
+  // Sizes
+  &--sm {
+    @apply py-1 px-2;
+
+    &#{$root}--cta {
+      padding-top: 5px;
+      padding-bottom: 3px;
+    }
+  }
+
+  &--lg {
+    @apply py-3 px-5;
+
+    &#{$root}--cta {
+      padding-top: 13px;
+      padding-bottom: 11px;
+    }
+  }
+
+  // Colors
+  &--white {
+    @apply bg-white;
+    @apply text-black;
+
+    &:hover {
+      @apply bg-black;
+      @apply text-white;
+    }
+
+    &#{$root}--ghost {
+      @apply bg-transparent;
+      @apply text-white;
+
+      &:hover {
+        @apply bg-white;
+        @apply text-black;
+      }
+    }
+
+    &#{$root}--outlined {
+      @apply bg-transparent;
+      @apply text-white;
+
+      &:hover {
+        @apply bg-white;
+        @apply text-black;
+      }
+    }
+  }
+}
+
+button {
+  &:focus {
+    @apply outline-none;
+  }
+}

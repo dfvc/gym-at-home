@@ -17,7 +17,7 @@ module.exports = {
           'Roboto',
         ],
         headline: [
-          'Boogaloo',
+          'Passion One',
         ],
       },
       appBar: {
@@ -39,6 +39,7 @@ module.exports = {
       'pages/**/*.vue',
       'plugins/**/*.js',
       'nuxt.config.js',
+      'assets/scss/**/*.scss',
     ],
   },
 };

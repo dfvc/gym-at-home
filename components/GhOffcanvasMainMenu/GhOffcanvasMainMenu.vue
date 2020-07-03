@@ -1,14 +1,17 @@
 <template>
-  <div class="gh-offcanvas-menu">
+  <div
+    :class="menuDynamicClassList"
+    class="gh-offcanvas-menu"
+  >
     <button
       :title="$t('global.actions.openMenu')"
       type="button"
-      class="gh-offcanvas-menu__trigger flex flex-col justify-between items-center py-3 lg:py-4 px-6 h-full"
+      class="gh-offcanvas-menu__trigger flex flex-col justify-center items-center px-6 h-full"
       @click="openMenu"
     >
-      <span class="gh-offcanvas-menu__trigger-bar w-12 bg-white" />
-      <span class="gh-offcanvas-menu__trigger-bar w-12 bg-white" />
-      <span class="gh-offcanvas-menu__trigger-bar w-12 bg-white" />
+      <span class="gh-offcanvas-menu__trigger-bar my-px w-12 bg-white transition-all duration-100" />
+      <span class="gh-offcanvas-menu__trigger-bar my-px w-12 bg-white transition-all duration-100" />
+      <span class="gh-offcanvas-menu__trigger-bar my-px w-12 bg-white transition-all duration-100" />
     </button>
 
     <GhBackgroundOverlay
@@ -39,9 +42,16 @@ import {
 @Component
 export default class GhOffcanvasMainMenu extends Vue {
   /**
-   * Local State
+   * Interface
    */
   public isMenuOpen: boolean = false;
+
+  /**
+   * Local State
+   */
+  public get menuDynamicClassList(): string {
+    return this.isMenuOpen ? 'gh-offcanvas-menu--opened' : '';
+  }
 
   /**
    * Non-Reactive Properties
@@ -66,7 +76,24 @@ export default class GhOffcanvasMainMenu extends Vue {
 
 <style lang="scss" scoped>
   .gh-offcanvas-menu {
+    $root: &;
+
+    &--opened {
+      #{$root}__trigger-bar {
+        margin: 5px 0;
+      }
+    }
+
+    &__trigger {
+      &:hover {
+        #{$root}__trigger-bar {
+          margin: 5px 0;
+        }
+      }
+    }
+
     &__trigger-bar {
+      margin: 3px 0;
       height: 2px;
     }
   }

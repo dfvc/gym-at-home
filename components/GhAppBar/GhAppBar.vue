@@ -1,7 +1,7 @@
 <template>
   <header
     :class="classList"
-    class="gh-app-bar sticky top-0 flex justify-between"
+    class="gh-app-bar sticky top-0 z-50 flex justify-between"
   >
     <GhOffcanvasMainMenu
       @before-open-menu="setMenuAsOpen"
@@ -15,7 +15,12 @@
       {{ $t('global.appName') }}
     </nuxt-link>
 
-    <span class="mx-6">{{ $t('appBar.engageButtonLabel') }}</span>
+    <button
+      type="button"
+      class="gh-button hidden sm:block"
+    >
+      {{ $t('appBar.engageButtonLabel') }}
+    </button>
   </header>
 </template>
 

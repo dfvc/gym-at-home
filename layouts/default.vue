@@ -31,10 +31,4 @@
     @apply box-border;
     @apply m-0;
   }
-
-  button {
-    &:focus {
-      @apply outline-none;
-    }
-  }
 </style>

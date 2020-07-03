@@ -8,6 +8,10 @@ export const messages = {
     },
   },
   appBar: {
-    engageButtonLabel: 'Saber Mais',
+    engageButtonLabel: 'Registar',
+  },
+  introTeaser: {
+    text: 'Mantenha a sua Forma',
+    ctaButton: 'Mostrar-me Como',
   },
 };
