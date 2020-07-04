@@ -24,6 +24,7 @@ export default class GhSportsTeaser extends Vue {
 <style lang="scss" scoped>
   .gh-sports-teaser {
     &__headline {
+      @include fluid-type(24px, 100px);
     }
   }
 </style>

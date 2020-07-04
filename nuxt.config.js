@@ -30,7 +30,6 @@ export default {
   css: [
     '@/assets/scss/fonts.scss',
     '@/assets/scss/buttons.scss',
-    '@/assets/scss/fluid-type.scss',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -51,7 +50,14 @@ export default {
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    // Doc: https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    scss: [
+      '@/assets/scss/fluid-type.scss',
+    ],
+  },
   /*
   ** Nuxt.js modules
   */
