@@ -10,7 +10,7 @@
       v-show="isVisible"
       :style="dynamicStyling"
       :class="positioningClassList"
-      class="gh-offcanvas-flyout fixed p-8 w-full bg-gray-900a7 h-full shadow-2xl overflow-y-auto overflow-x-hidden scrolling-touch"
+      class="gh-offcanvas-flyout fixed p-8 w-full bg-custom-spaceCadetA7 h-full shadow-2xl overflow-y-auto overflow-x-hidden scrolling-touch"
     >
       <button
         :title="$t('global.actions.close')"

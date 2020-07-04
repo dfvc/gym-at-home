@@ -30,6 +30,7 @@ export default {
   css: [
     '@/assets/scss/fonts.scss',
     '@/assets/scss/buttons.scss',
+    '@/assets/scss/fluid-type.scss',
   ],
   /*
   ** Plugins to load before mounting the App

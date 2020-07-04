@@ -1,4 +1,7 @@
 export const VIDEO_PLAYBACK_RATE = '0.85';
 export const VIDEO_FADE_DURATION_MS = 300;
+export const VIDEO_LOOP_INTERVAL = 15000;
 export const TEXT_FADE_DURATION_MS = 300;
 export const CTA_FADE_DURATION_MS = 200;
+export const LOGO_FADE_DURATION_MS = 1000;
+export const NEXT_TEASER_SCROLL_DELAY = 2000;

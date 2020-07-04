@@ -48,12 +48,16 @@ export default class GhIntroTeaser extends Vue {
   @Prop({ type: String, default: '1.0' })
   public playbackRate: string;
 
+  @Prop({ type: Number, default: 0 })
+  public loopInterval: number;
+
   /**
    * Events
    */
   public mounted(): void {
     this.registerVideoEventListeners();
     (this.$refs.videoPlayer as HTMLVideoElement).playbackRate = parseFloat(this.playbackRate);
+    this.setLoopBehavior();
   }
 
   public beforeDestroy(): void {
@@ -117,6 +121,20 @@ export default class GhIntroTeaser extends Vue {
 
   public onEndVideo(): void {
     this.$emit('videoEnd');
+  }
+
+  public setLoopBehavior(): void {
+    if (!this.loop) return;
+
+    const videoPlayer = (this.$refs.videoPlayer as HTMLVideoElement);
+
+    if (this.loopInterval > 0) {
+      videoPlayer.loop = false;
+      setInterval(
+        () => videoPlayer.play(),
+        this.loopInterval,
+      );
+    }
   }
 }
 </script>

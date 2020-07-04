@@ -7,10 +7,14 @@ module.exports = {
     extend: {
       colors: {
         main: defaultTheme.colors[mainBaseColor],
-        gray: {
-          ...defaultTheme.colors.gray,
-          '900a7': 'rgba(26, 32,44, .7)',
-        },
+        custom: {
+          spaceCadet: '#1f2041',
+          spaceCadetA7: 'rgba(31, 32, 65, .7)',
+          cyberGrape: '#4b3f72',
+          maximumYellow: '#ffc857',
+          viridianGreen: '#119da4',
+          blueSapphire: '#19647e',
+        }
       },
       fontFamily: {
         sans: [

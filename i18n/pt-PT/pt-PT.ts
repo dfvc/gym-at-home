@@ -14,4 +14,7 @@ export const messages = {
     text: 'Mantenha a sua Forma',
     ctaButton: 'Mostrar-me Como',
   },
+  sportsTeaser: {
+    heading: 'Modalidades',
+  },
 };

@@ -90,13 +90,13 @@ export default class GhAppBar extends Vue {
 
     &--dark {
       &:after {
-        @apply bg-gray-900a7;
+        @apply bg-custom-spaceCadetA7;
       }
     }
 
     &--darkest {
       &:after {
-        @apply bg-gray-900;
+        @apply bg-custom-spaceCadet;
       }
     }
 
