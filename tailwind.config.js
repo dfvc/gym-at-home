@@ -5,6 +5,10 @@ const mainBaseColor = 'orange';
 module.exports = {
   theme: {
     extend: {
+      screens: {
+        ...defaultTheme.screens,
+        xxl: '1920px',
+      },
       colors: {
         main: defaultTheme.colors[mainBaseColor],
         custom: {
@@ -22,6 +26,9 @@ module.exports = {
         ],
         headline: [
           'Passion One',
+        ],
+        'bungee-outline': [
+          'Bungee Outline',
         ],
       },
       appBar: {

@@ -2,7 +2,7 @@
   @return $value / ($value * 0 + 1);
 }
 
-@mixin fluid-type($min-font-size: 30px, $max-font-size: 64px, $min-vw: 375px, $max-vw: 1024px) {
+@mixin fluid-type($min-font-size: 30px, $max-font-size: 64px, $min-vw: 375px, $max-vw: 1920px) {
   $u1: unit($min-vw);
   $u2: unit($max-vw);
   $u3: unit($min-font-size);
