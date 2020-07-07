@@ -40,7 +40,10 @@ module.exports = {
       }
     },
   },
-  variants: {},
+  variants: {
+    margin: ['hover', 'responsive'],
+    padding: ['hover', 'responsive'],
+  },
   plugins: [],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
