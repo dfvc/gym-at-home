@@ -44,7 +44,7 @@ export default class GhSportsTeaser extends Vue {
 
 <style lang="scss" scoped>
   .gh-sports-teaser {
-    background: url('/patterns/black-felt.png') theme('colors.custom.viridianGreen');
+    background: url('/patterns/black-felt.png') theme('colors.custom.viridianGreen') fixed;
 
     &__headline {
       top: -10px;

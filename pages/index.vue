@@ -3,5 +3,6 @@
     <GhIntroTeaser />
     <GhSportsTeaser />
     <GhPlansTeaser />
+    <GhNutritionTeaser />
   </div>
 </template>

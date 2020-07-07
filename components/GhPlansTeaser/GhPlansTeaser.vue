@@ -47,7 +47,7 @@ export default class GhPlansTeaser extends Vue {
 
 <style lang="scss" scoped>
   .gh-plans-teaser {
-    background: url('/patterns/diagmonds.png') theme('colors.custom.cyberGrape');
+    background: url('/patterns/diagmonds.png') theme('colors.custom.cyberGrape') fixed;
 
     &__headline {
       top: -10px;
