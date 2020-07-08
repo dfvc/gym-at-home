@@ -101,5 +101,21 @@ export const messages = {
       remarks: '* Máximo de 2 sessões por dia.',
     },
     featuredLabel: 'Recomendado',
-  }
+  },
+  nutritionTeaser: {
+    heading: 'Nutrição',
+    ctaButton: 'Mais detalhes',
+    item1: 'Acompanhamento especializado',
+    description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    item2: 'Ótimo complemento ao exercício',
+    description2: 'Lorem ipsum dolor sit amet.',
+    item3: 'Consultas regulares',
+    description3: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ipsum lorem, viverra ac augue eget, elementum hendrerit erat.',
+    item4: 'Análise cuidadosa',
+    description4: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ipsum lorem, viverra ac augue eget, elementum hendrerit erat. Duis commodo, diam ut aliquet hendrerit, neque tellus aliquam libero.',
+    item5: 'Plano alimentar personalizado',
+    description5: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ipsum lorem, viverra ac augue eget.',
+    item6: 'Receitas online',
+    description6: 'Lorem ipsum dolor sit amet.',
+  },
 };

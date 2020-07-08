@@ -73,6 +73,39 @@
       }
     }
   }
+
+  &--blueSapphire {
+    @apply bg-custom-blueSapphire;
+    @apply text-white;
+
+    &:hover {
+      @apply bg-white;
+      @apply border-white;
+      @apply text-custom-blueSapphire;
+    }
+
+    &#{$root}--ghost {
+      @apply bg-transparent;
+      @apply text-custom-blueSapphire;
+
+      &:hover {
+        @apply bg-custom-blueSapphire;
+        @apply border-custom-blueSapphire;
+        @apply text-white;
+      }
+    }
+
+    &#{$root}--outlined {
+      @apply bg-transparent;
+      @apply text-custom-blueSapphire;
+
+      &:hover {
+        @apply bg-custom-blueSapphire;
+        @apply border-custom-blueSapphire;
+        @apply text-white;
+      }
+    }
+  }
 }
 
 button {

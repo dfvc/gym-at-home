@@ -18,6 +18,7 @@ module.exports = {
           maximumYellow: '#ffc857',
           viridianGreen: '#119da4',
           blueSapphire: '#19647e',
+          blueSapphireA5: 'rgba(25, 100, 126, .5)',
         }
       },
       fontFamily: {

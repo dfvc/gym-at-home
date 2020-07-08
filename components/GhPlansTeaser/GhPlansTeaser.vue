@@ -51,32 +51,32 @@ export default class GhPlansTeaser extends Vue {
 
     &__headline {
       top: -10px;
-      left: -5px;
+      right: -5px;
       @include fluid-type(52px, 300px);
 
       @screen sm {
         top: -24px;
-        left: -8px;
+        right: -8px;
       }
 
       @screen md {
         top: -22px;
-        left: -10px;
+        right: -10px;
       }
 
       @screen lg {
         top: -36px;
-        left: -12px;
+        right: -12px;
       }
 
       @screen xl {
         top: -48px;
-        left: -20px;
+        right: -18px;
       }
 
       @screen xxl {
         top: -74px;
-        left: -32px;
+        right: -26px;
       }
     }
 
