@@ -3,6 +3,7 @@
 
   @apply py-2 px-4;
   @apply transition-all duration-100;
+  @apply rounded-sm;
 
   // Variants
   &--ghost {
@@ -44,20 +45,20 @@
   &--white {
     @apply bg-white;
     @apply text-black;
+    @apply border-black;
 
     &:hover {
       @apply bg-black;
-      @apply border-black;
       @apply text-white;
     }
 
     &#{$root}--ghost {
       @apply bg-transparent;
       @apply text-white;
+      @apply border-white;
 
       &:hover {
         @apply bg-white;
-        @apply border-white;
         @apply text-black;
       }
     }
@@ -65,11 +66,44 @@
     &#{$root}--outlined {
       @apply bg-transparent;
       @apply text-white;
+      @apply border-white;
 
       &:hover {
         @apply bg-white;
-        @apply border-white;
         @apply text-black;
+      }
+    }
+  }
+
+  &--spaceCadet {
+    @apply bg-custom-spaceCadet;
+    @apply text-white;
+    @apply border-white;
+
+    &:hover {
+      @apply bg-white;
+      @apply text-custom-spaceCadet;
+    }
+
+    &#{$root}--ghost {
+      @apply bg-transparent;
+      @apply text-custom-spaceCadet;
+      @apply border-custom-spaceCadet;
+
+      &:hover {
+        @apply bg-custom-spaceCadet;
+        @apply text-white;
+      }
+    }
+
+    &#{$root}--outlined {
+      @apply bg-transparent;
+      @apply text-custom-spaceCadet;
+      @apply border-custom-spaceCadet;
+
+      &:hover {
+        @apply bg-custom-spaceCadet;
+        @apply text-white;
       }
     }
   }
@@ -77,20 +111,20 @@
   &--blueSapphire {
     @apply bg-custom-blueSapphire;
     @apply text-white;
+    @apply border-white;
 
     &:hover {
       @apply bg-white;
-      @apply border-white;
       @apply text-custom-blueSapphire;
     }
 
     &#{$root}--ghost {
       @apply bg-transparent;
       @apply text-custom-blueSapphire;
+      @apply border-custom-blueSapphire;
 
       &:hover {
         @apply bg-custom-blueSapphire;
-        @apply border-custom-blueSapphire;
         @apply text-white;
       }
     }
@@ -98,10 +132,10 @@
     &#{$root}--outlined {
       @apply bg-transparent;
       @apply text-custom-blueSapphire;
+      @apply border-custom-blueSapphire;
 
       &:hover {
         @apply bg-custom-blueSapphire;
-        @apply border-custom-blueSapphire;
         @apply text-white;
       }
     }

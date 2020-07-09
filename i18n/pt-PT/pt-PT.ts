@@ -118,4 +118,29 @@ export const messages = {
     item6: 'Receitas online',
     description6: 'Lorem ipsum dolor sit amet.',
   },
+  teamTeaser: {
+    heading: 'Equipa',
+    ctaButton: 'Equipa completa',
+    card1: {
+      imageSrc: 'team/pt1-a.jpg',
+      imageHoverSrc: 'team/pt1-b.png',
+      headline: 'Gustavo Reis',
+      subHeadline: 'Running | Cardio | Spinning',
+    },
+    card2: {
+      imageSrc: 'team/pt2-a.jpg',
+      imageHoverSrc: 'team/pt2-b.png',
+      headline: 'Joana Lobato',
+      subHeadline: 'Pilates | Yoga | Passadeira',
+    },
+    card3: {
+      imageSrc: 'team/pt3-a.jpg',
+      imageHoverSrc: 'team/pt3-b.png',
+      headline: 'Roberto Almeida',
+      subHeadline: 'Cardio | Passadeira | Yoga',
+    },
+  },
+  ptNearByTeaser: {
+    heading: 'Perto de Si',
+  },
 };

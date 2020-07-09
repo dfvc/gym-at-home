@@ -4,5 +4,7 @@
     <GhSportsTeaser />
     <GhPlansTeaser />
     <GhNutritionTeaser />
+    <GhTeamTeaser />
+    <GhPtNearByTeaser />
   </div>
 </template>

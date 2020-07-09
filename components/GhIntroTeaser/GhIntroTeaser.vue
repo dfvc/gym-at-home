@@ -191,10 +191,14 @@ export default class GhIntroTeaser extends Vue {
   }
 
   public scrollToNextTeaser(): void {
+    const pageScrollOffset = window.pageYOffset;
     const scrollOffset = parseInt(
       getComputedStyle(this.$el as HTMLElement).height.replace('px', ''),
     );
-    window.scrollTo({ top: scrollOffset, behavior: 'smooth' });
+
+    if (pageScrollOffset < scrollOffset) {
+      window.scrollTo({top: scrollOffset, behavior: 'smooth'});
+    }
   }
 }
 </script>

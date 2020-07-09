@@ -2,7 +2,7 @@
   <article class="gh-plan__outer p-6 xl:w-1/4 md:w-1/2 w-full">
     <div
       :class="dynamicClassList"
-      class="gh-plan__inner h-full p-6 border-2 flex flex-col relative overflow-hidden hover:bg-custom-spaceCadetA7 hover:-mt-4 hover:mb-4 transition-all duration-100"
+      class="gh-plan__inner h-full p-6 border-2 flex flex-col relative overflow-hidden hover:bg-custom-spaceCadetA7 hover:-mt-4 hover:mb-4 transition-all duration-100 rounded-sm"
     >
       <span
         v-if="featured"
