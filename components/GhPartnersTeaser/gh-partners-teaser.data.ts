@@ -1,21 +1,21 @@
 export const data = {
-  headline: 'equipmentTeaser.heading',
-  ctaButton: 'equipmentTeaser.ctaButton',
+  headline: 'partnersTeaser.heading',
+  ctaButton: 'partnersTeaser.ctaButton',
   items: [
     {
-      imageSrc: 'equipmentTeaser.item1.imageSrc',
-      name: 'equipmentTeaser.item1.name',
-      description: 'equipmentTeaser.item1.description',
+      imageSrc: 'partnersTeaser.item1.imageSrc',
+      name: 'partnersTeaser.item1.name',
+      description: 'partnersTeaser.item1.description',
     },
     {
-      imageSrc: 'equipmentTeaser.item2.imageSrc',
-      name: 'equipmentTeaser.item2.name',
-      description: 'equipmentTeaser.item2.description',
+      imageSrc: 'partnersTeaser.item2.imageSrc',
+      name: 'partnersTeaser.item2.name',
+      description: 'partnersTeaser.item2.description',
     },
     {
-      imageSrc: 'equipmentTeaser.item3.imageSrc',
-      name: 'equipmentTeaser.item3.name',
-      description: 'equipmentTeaser.item3.description',
+      imageSrc: 'partnersTeaser.item3.imageSrc',
+      name: 'partnersTeaser.item3.name',
+      description: 'partnersTeaser.item3.description',
     },
   ],
 };

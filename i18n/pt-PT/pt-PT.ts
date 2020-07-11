@@ -164,21 +164,21 @@ export const messages = {
   },
   partnersTeaser: {
     heading: 'Parcerias',
-    ctaButton: 'Ver todos os produtos',
+    ctaButton: 'Mais informações',
     item1: {
-      imageSrc: 'equipment/elastic-bands.jpg',
-      name: 'Bandas Elásticas',
-      description: 'As bandas elásticas são um excelente equipamento básico que que permitem a realização de dezenas de exercícios diferentes.',
+      imageSrc: 'partners/logo-prozis.png',
+      name: 'Prozis',
+      description: 'Vasta gama de suplementos alimentares e acessórios de apoio à prática desportiva. Utilize os nossos códigos promocionais e obtenha descontos em dezenas de artigos.',
     },
     item2: {
-      imageSrc: 'equipment/dumbbell.png',
-      name: 'Halteres Reguláveis',
-      description: 'Ótimo equipamento para exercício em casa que pode ser usado para qualquer tipo de treino de força. Cada haltere pode ser ajustado para pesar entre 5Kg e 25Kg.',
+      imageSrc: 'partners/logo-naturewise.png',
+      name: 'NatureWise',
+      description: 'Suplementos alimentares de saúde e bem estar. Código promocional de 20% em toda a loja.',
     },
     item3: {
-      imageSrc: 'equipment/pack1.jpg',
-      name: 'Pack Home Fitness',
-      description: 'Conjunto de equipamento perfeito para a prática de fitness em casa.',
+      imageSrc: 'partners/logo-ffittech.png',
+      name: 'FFITTECH',
+      description: 'Equipamentos e máquinas para a prática desportiva. Aconselhamento na escolha de artigos.',
     },
   },
 };

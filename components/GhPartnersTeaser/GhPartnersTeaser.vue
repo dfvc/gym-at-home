@@ -1,12 +1,12 @@
 <template>
   <section class="gh-partners-teaser relative flex flex-col justify-center items-center min-h-screen overflow-hidden">
-    <h1 class="gh-partners-teaser__headline absolute right-0 leading-none font-headline text-gray-900 uppercase">
+    <h1 class="gh-partners-teaser__headline absolute right-0 leading-none font-headline uppercase">
       {{ $t(teaserData.headline) }}
     </h1>
 
     <div class="gh-partners-teaser__cards flex justify-center flex-wrap max-w-screen-xl pt-10 pb-10 md:pt-16 lg:pt-20 xl:pt-40 w-full">
       <div class="container px-5 pt-12 pb-24 mx-auto">
-        <GhEquipmentItem
+        <GhPartnerItem
           v-for="(item, index) in teaserData.items"
           :key="index"
           :image-src="$t(item.imageSrc)"
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <div class="gh-partners-teaser__actions flex justify-end mb-16 max-w-screen-xl pr-10 md:pr-16 lg:pr-20 xl:pr-40 w-full">
+    <div class="gh-partners-teaser__actions flex mb-16 max-w-screen-xl pl-10 md:pl-16 lg:pl-20 xl:pl-40 w-full">
       <button
         class="gh-button gh-button--outlined gh-button--cta gh-button--lg gh-button--white"
         type="button"
@@ -46,7 +46,7 @@ export default class GhPartnersTeaser extends Vue {
    * Non Reactive Properties
    */
   public getAlignmentForItem(index: number): boolean {
-    return index % 2 === 0;
+    return index % 2 !== 0;
   }
 }
 </script>
@@ -54,45 +54,45 @@ export default class GhPartnersTeaser extends Vue {
 <style lang="scss" scoped>
   .gh-partners-teaser {
     background:
-      url('/olympic-plates.jpg') bottom left no-repeat, linear-gradient(transparent 0%, transparent 25%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%)
-      theme('colors.gray.800');
-    background-size: 75%;
+      linear-gradient(transparent 0%, rgba(255, 0, 0, .75) 100%), url('/patterns/dark-mosaic.png')
+      theme('colors.red.800');
 
     &__headline {
-      top: -10px;
-      left: -5px;
+      bottom: -16px;
+      right: -5px;
+      color: rgba(0, 0, 0, .25);
       @include fluid-type(52px, 100px);
 
       @screen sm {
-        top: -14px;
-        left: -6px;
+        bottom: -18px;
+        right: -6px;
       }
 
       @screen md {
-        top: -10px;
-        left: -8px;
+        bottom: -18px;
+        right: -8px;
       }
 
       @screen lg {
-        top: -16px;
-        left: -10px;
+        bottom: -20px;
+        right: -10px;
       }
 
       @screen xl {
-        top: -18px;
-        left: -10px;
+        bottom: -22px;
+        right: -10px;
       }
 
       @screen xxl {
-        top: -20px;
-        left: -12px;
+        bottom: -28px;
+        right: -12px;
       }
     }
 
     &__actions {
       /deep/ .gh-button {
         &:hover {
-          @apply text-custom-viridianGreen;
+          @apply text-red-800;
         }
       }
     }

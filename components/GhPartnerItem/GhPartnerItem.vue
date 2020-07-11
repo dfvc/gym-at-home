@@ -2,12 +2,12 @@
   <div class="gh-equipment-item flex items-center lg:w-3/5 mx-auto pb-10 mb-10 sm:flex-row flex-col">
     <div
       :class="imageWrapperDynamicClassList"
-      class="sm:w-32 sm:h-32 h-20 w-20 rounded-sm bg-white flex-shrink-0 overflow-hidden"
+      class="sm:w-32 sm:h-32 h-20 w-20 p-3 rounded-md bg-gray-900 flex-shrink-0 overflow-hidden"
     >
       <img
         :src="require(`@/assets/images/${imageSrc}`)"
         :alt="name"
-        class="gh-equipment-item__image h-full w-full object-cover"
+        class="gh-equipment-item__image h-full w-full object-contain"
       />
     </div>
 
@@ -15,12 +15,12 @@
       :class="contentWrapperDynamicClassList"
       class="flex-grow sm:text-left text-center mt-6 sm:mt-0"
     >
-      <h2 class="gh-equipment-item__headline text-custom-maximumYellow text-xl font-bold mb-2 tracking-wide">
+      <h2 class="gh-equipment-item__headline text-white text-xl font-bold mb-2 tracking-wide">
         {{ name }}
       </h2>
       <p
         v-if="hasDescription"
-        class="gh-equipment-item__description leading-normal"
+        class="gh-equipment-item__description leading-normal text-white"
       >
         {{ description }}
       </p>

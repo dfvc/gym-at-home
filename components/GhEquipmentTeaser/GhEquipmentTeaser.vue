@@ -92,7 +92,7 @@ export default class GhEquipmentTeaser extends Vue {
     &__actions {
       /deep/ .gh-button {
         &:hover {
-          @apply text-custom-viridianGreen;
+          color: darken(#ffc857, 30%);
         }
       }
     }
