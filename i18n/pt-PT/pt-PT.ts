@@ -143,4 +143,42 @@ export const messages = {
   ptNearByTeaser: {
     heading: 'Perto de Si',
   },
+  equipmentTeaser: {
+    heading: 'Equipamento Móvel',
+    ctaButton: 'Fale com o seu PT',
+    item1: {
+      imageSrc: 'equipment/elastic-bands.jpg',
+      name: 'Bandas Elásticas',
+      description: 'As bandas elásticas são um excelente equipamento básico que que permitem a realização de dezenas de exercícios diferentes.',
+    },
+    item2: {
+      imageSrc: 'equipment/dumbbell.png',
+      name: 'Halteres Reguláveis',
+      description: 'Ótimo equipamento para exercício em casa que pode ser usado para qualquer tipo de treino de força. Cada haltere pode ser ajustado para pesar entre 5Kg e 25Kg.',
+    },
+    item3: {
+      imageSrc: 'equipment/pack1.jpg',
+      name: 'Pack Home Fitness',
+      description: 'Conjunto de equipamento perfeito para a prática de fitness em casa.',
+    },
+  },
+  partnersTeaser: {
+    heading: 'Parcerias',
+    ctaButton: 'Ver todos os produtos',
+    item1: {
+      imageSrc: 'equipment/elastic-bands.jpg',
+      name: 'Bandas Elásticas',
+      description: 'As bandas elásticas são um excelente equipamento básico que que permitem a realização de dezenas de exercícios diferentes.',
+    },
+    item2: {
+      imageSrc: 'equipment/dumbbell.png',
+      name: 'Halteres Reguláveis',
+      description: 'Ótimo equipamento para exercício em casa que pode ser usado para qualquer tipo de treino de força. Cada haltere pode ser ajustado para pesar entre 5Kg e 25Kg.',
+    },
+    item3: {
+      imageSrc: 'equipment/pack1.jpg',
+      name: 'Pack Home Fitness',
+      description: 'Conjunto de equipamento perfeito para a prática de fitness em casa.',
+    },
+  },
 };
