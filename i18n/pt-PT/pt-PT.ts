@@ -181,4 +181,22 @@ export const messages = {
       description: 'Equipamentos e máquinas para a prática desportiva. Aconselhamento na escolha de artigos.',
     },
   },
+  socialTeaser: {
+    facebook: {
+      name: 'Facebook',
+      url: '#',
+    },
+    instagram: {
+      name: 'Instagram',
+      url: '#',
+    },
+    twitter: {
+      name: 'Twitter',
+      url: '#',
+    },
+    youtube: {
+      name: 'Youtube',
+      url: '#',
+    },
+  },
 };

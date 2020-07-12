@@ -55,7 +55,8 @@ export default class GhPartnersTeaser extends Vue {
   .gh-partners-teaser {
     background:
       linear-gradient(transparent 0%, rgba(255, 0, 0, .75) 100%), url('/patterns/dark-mosaic.png')
-      theme('colors.red.800');
+      theme('colors.red.800')
+      fixed;
 
     &__headline {
       bottom: -16px;

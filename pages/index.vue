@@ -10,5 +10,6 @@
       <GhEquipmentTeaser class="w-full xl:w-1/2"/>
       <GhPartnersTeaser class="w-full xl:w-1/2"/>
     </div>
+    <GhSocialTeaser />
   </div>
 </template>

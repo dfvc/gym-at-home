@@ -15,6 +15,7 @@ module.exports = {
           spaceCadet: '#1f2041',
           spaceCadetA7: 'rgba(31, 32, 65, .7)',
           cyberGrape: '#4b3f72',
+          cyberGrapeA7: 'rgba(75, 64, 114, .7)',
           maximumYellow: '#ffc857',
           viridianGreen: '#119da4',
           blueSapphire: '#19647e',
