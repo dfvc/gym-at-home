@@ -2,6 +2,7 @@ export const messages = {
   global: {
     appName: 'Gym@Home',
     appShortName: 'G@H',
+    copyright: '© {year} Gym at Home',
     actions: {
       openMenu: 'Menu',
       close: 'Fechar',
