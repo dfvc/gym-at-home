@@ -28,7 +28,7 @@
       @before-show-flyout="onBeforeShowFlyout"
       @after-hide-flyout="onAfterHideFlyout"
     >
-      TEST
+      <nuxt-link :to="'/#sportsTeaser'">TEST</nuxt-link>
     </GhOffcanvasFlyout>
   </div>
 </template>
@@ -80,14 +80,14 @@ export default class GhOffcanvasMainMenu extends Vue {
 
     &--opened {
       #{$root}__trigger-bar {
-        margin: 5px 0;
+        margin: 6px 0;
       }
     }
 
     &__trigger {
       &:hover {
         #{$root}__trigger-bar {
-          margin: 5px 0;
+          margin: 6px 0;
         }
       }
     }

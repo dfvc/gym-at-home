@@ -1,7 +1,9 @@
 <template>
   <div class="gh-home">
     <GhIntroTeaser />
-    <GhSportsTeaser />
+    <div id="#sportsTeaser">
+      <GhSportsTeaser />
+    </div>
     <GhPlansTeaser />
     <GhNutritionTeaser />
     <GhTeamTeaser />
