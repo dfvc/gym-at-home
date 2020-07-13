@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/*@include font-face(Roboto, '~/assets/fonts/Roboto/Roboto-Regular', 400, normal, ttf);*/
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Passion One';
+  font-weight: 400;
+  src: url('../fonts/Passion_One/PassionOne-Regular.ttf') format('truetype');
+}
