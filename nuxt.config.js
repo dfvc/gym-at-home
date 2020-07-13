@@ -28,7 +28,6 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/scss/fonts.scss',
     '@/assets/scss/buttons.scss',
   ],
   /*
